@@ -32,4 +32,7 @@ else if(creeper >= 2 && creepSlayer == 0){
 else if(creeper < 2 && creepSlayer == 1){
     console.log("A glorious battle! You escape with honor!");
 }
+else if(creeper < 2 && creepSlayer == 0){
+
+}
 
