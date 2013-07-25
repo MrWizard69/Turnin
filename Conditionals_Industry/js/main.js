@@ -7,4 +7,8 @@ var proj = prompt("You are working on a project that is expected to take X hours
 if(proj == ""){
     console.log("You didn't type anything in dummy!");
 }
+else{
+    var team = prompt("How many people are working with you?");
 
+
+}
