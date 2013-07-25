@@ -10,5 +10,8 @@ if(proj == ""){
 else{
     var team = prompt("How many people are working with you?");
 
+    if(team == ""){
+        console.log("You no type nothin in!");
+    }
 
 }
