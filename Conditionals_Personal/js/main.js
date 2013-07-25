@@ -27,6 +27,9 @@ if(weeds <= 4){
 else if(weeds > 4 && weeds < 6){
     console.log("It would be a good idea to unearth those weeds");
 }
+else{
+    console.log("Due to your poor gardening practices, your plant is now dead!");
+}
 
 
 
