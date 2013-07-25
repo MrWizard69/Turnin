@@ -2,7 +2,7 @@
 // Industry Conditions
 // 7-25-13
 
-var proj = prompt("You are working on a project that is expected to take X hours. How many hours?");
+var proj = prompt("You are working on a project that is expected to take X hours. How many hours?"); //asks how many hours a project will take
 
 if(proj == ""){
     console.log("You didn't type anything in dummy!");
