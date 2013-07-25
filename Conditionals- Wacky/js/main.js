@@ -16,5 +16,7 @@ if(aday == ""){
     console.log("No information for you!");
 }
 else{
-
+    console.log("Your tavels should take " + (dist/aday) +" game days");
 }
+
+console.log("On your way to your safe house, you got jumped by " + creeper + " creepers!!!");
