@@ -12,7 +12,7 @@ else{
 }
 
 if(hours == ""){
-    console.log("You no typed nothin in!");
+    console.log("You no typed nothin in!"); // again... if the silly user no types nothing in...
 }
 else{
     function time(a,b){
