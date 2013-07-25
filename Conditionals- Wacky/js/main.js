@@ -2,4 +2,8 @@
 //Wacky Conditionals
 //7-24-13
 
-console.log("Yay! :D")
+var dist = prompt("In minecraft, your safe house is how many blocks away?");
+
+if(dist == ""){
+    console.log("TYPE SOMETHING!!!")
+}
