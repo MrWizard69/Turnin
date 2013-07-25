@@ -16,8 +16,8 @@ if(hours == ""){
 }
 else{
     function time(a,b){
-        var result = b/a;
-        console.log("At your current rate it should take you " + result + " hours")
+        var result = a/b;
+        console.log("At your current rate it should take you " + result + " hours");
         (result >= 24) ? console.log("Looks like it will take you a day or more") : console.log("It shouldn't take you too long =]");
     }
 }
