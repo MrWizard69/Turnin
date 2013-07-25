@@ -22,7 +22,7 @@ growth(sprout1, sprout2);
 console.log("During the middle of the second month, you noticed " + weeds + " weeds growing...");
 
 if(weeds <= 4){
-    console.log("Your plant is now " + sprout2 * weeds + "cm tall and all weeds are dead!");
+    console.log("Your plant is now " + sprout2 + weeds + "cm tall and all weeds are dead!");
 }
 else if(weeds > 4 && weeds < 6){
     console.log("It would be a good idea to unearth those weeds");
