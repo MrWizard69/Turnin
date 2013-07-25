@@ -29,4 +29,7 @@ if(creeper >= 2 && creepSlayer == 1){
 else if(creeper >= 2 && creepSlayer == 0){
     console.log("You almost got away! But you ran into a random ditch you didn't see ahead and fell into lava, losing everything you had!");
 }
+else if(creeper < 2 && creepSlayer == 1){
+
+}
 
