@@ -15,4 +15,10 @@ if(hours == ""){
     console.log("You no typed nothin in!");
 }
 else{
+    function time(a,b){
+        var result = b/a;
+        console.log("At your current rate it should take you " + result + " hours")
+    }
+}
+
 
