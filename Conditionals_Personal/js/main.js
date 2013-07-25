@@ -28,6 +28,9 @@ else if(weeds > 4 && weeds < 6){
     console.log("It would be a good idea to unearth those weeds");
     var weedpker = prompt("Do you wish to pick those weeds? 1 = yes, 0 = no");
 
+    if(weedpker == 1){
+        console.log("You picked all the weeds and saved your plant!");
+    }
 
 }
 else{
