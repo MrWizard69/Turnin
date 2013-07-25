@@ -20,3 +20,9 @@ else{
 }
 
 console.log("On your way to your safe house, you got jumped by " + creeper + " creepers!!!");
+
+var creepSlayer = prompt("So... do you stand your ground or break in your new shoes? 1 = fight! 0 = run run run!");
+
+if(creeper > 3 && creepSlayer == 1){
+
+}
