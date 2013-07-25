@@ -18,10 +18,10 @@ else{
     function time(a,b){
         var result = a/b; // a function that divides the project hours by the work hours
         console.log("At your current rate it should take you " + result + " hours"); //displays how many hours it should take
-        (result >= 24) ? console.log("Looks like it will take you a day or more") : console.log("It shouldn't take you too long =]");
+        (result >= 24) ? console.log("Looks like it will take you a day or more") : console.log("It shouldn't take you too long =]"); //tells the user if it will take a day or not
     }
 }
 
-time(proj, hours);
+time(proj, hours);// calls the function
 
 
