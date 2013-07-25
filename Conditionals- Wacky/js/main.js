@@ -3,6 +3,7 @@
 //7-24-13
 
 var dist = prompt("In minecraft, your safe house is how many blocks away?");
+var creeper = Math.floor((Math.random() * 5));
 
 if(dist == ""){
     console.log("TYPE SOMETHING!!!");
@@ -12,6 +13,8 @@ else{
 }
 
 if(aday == ""){
-    console.log("No information for you!")
+    console.log("No information for you!");
 }
-else{}
+else{
+
+}
