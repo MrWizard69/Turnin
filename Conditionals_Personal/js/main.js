@@ -24,7 +24,9 @@ console.log("During the middle of the second month, you noticed " + weeds + " we
 if(weeds <= 4){
     console.log("Your plant is now " + sprout2 * weeds + "cm tall!");
 }
-
+else if(weeds > 4 && weeds < 6){
+    console.log("It would be a good idea to unearth those weeds");
+}
 
 
 
