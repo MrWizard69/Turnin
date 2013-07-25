@@ -31,7 +31,9 @@ else if(weeds > 4 && weeds < 6){
     if(weedpker == 1){
         console.log("You picked all the weeds and saved your plant!");
     }
-
+    else if(weedpker == 0){
+        console.log("You lazy sap! The weeds have invaded your plants personal space!");
+    }
 }
 else{
     console.log("Due to your poor gardening practices, your plant is now dead!");
