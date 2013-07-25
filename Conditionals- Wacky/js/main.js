@@ -13,10 +13,10 @@ else{
 }
 
 if(aday == ""){
-    console.log("No information for you!");
+    console.log("No information for you!"); // if the user didn't type anything in again...
 }
 else{
-    console.log("Your tavels should take " + (dist/aday) +" game days");
+    console.log("Your tavels should take " + (dist/aday) +" game days"); //calculates how many game days it will take to go to the safe house
 }
 
 console.log("On your way to your safe house, you got jumped by " + creeper + " creepers!!!");
