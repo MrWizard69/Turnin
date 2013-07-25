@@ -2,8 +2,8 @@
 //Wacky Conditionals
 //7-24-13
 
-var dist = prompt("In minecraft, your safe house is how many blocks away?");
-var creeper = Math.floor((Math.random() * 5));
+var dist = prompt("In minecraft, your safe house is how many blocks away?"); // asks the user how far the safe house is
+var creeper = Math.floor((Math.random() * 5)); //random creeper number
 
 if(dist == ""){
     console.log("TYPE SOMETHING!!!");
