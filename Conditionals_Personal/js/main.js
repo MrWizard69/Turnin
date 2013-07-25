@@ -14,10 +14,12 @@ else{
 }
 
 function growth(a,b){
-    var result = b - a;
-    return result()
+    var result = (b - a);
+    console.log(result);
 }
-console.log(growth(sprout1,sprout2))
+growth(sprout1, sprout2);
+
+//console.log(sprout2 - sprout1);
 
 
 
