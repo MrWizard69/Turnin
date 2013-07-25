@@ -9,15 +9,17 @@ if(proj == ""){
 }
 else{
     var team = prompt("How many people are working with you?");
-
-    if(team == ""){
-        console.log("You no type nothin in!");
-    }
-    else{
-        var hours = prompt("How many hours will everyone work?");
-
-        if(hours == ""){
-            console.log("You typed nothing in! Why???");
-        }
-    }
 }
+
+if(team == ""){
+    console.log("You no type nothin in!");
+ }
+else{
+    var hours = prompt("How many hours will everyone work?");
+}
+
+if(hours == ""){
+    console.log("You typed nothing in! Why???");
+}
+
+
