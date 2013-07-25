@@ -38,4 +38,5 @@ else if(creeper < 2 && creepSlayer == 0){
 else if(creeper == 0 && creepSlayer == 1){
     console.log("What are you fighting??... Weirdo... Keep walking home and don't talk to strangers.");
 }
+else if(creeper == 0 && creepSlayer == 0){}
 
