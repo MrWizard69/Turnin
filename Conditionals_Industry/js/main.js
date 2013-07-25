@@ -5,7 +5,7 @@
 var proj = prompt("You are working on a project that is expected to take X hours. How many hours?"); //asks how many hours a project will take
 
 if(proj == ""){
-    console.log("You didn't type anything in dummy!");
+    console.log("You didn't type anything in dummy!"); // if the silly user didn't type anything in...
 }
 else{
     var hours = prompt("How many hours at a time do you plan on working on it?");
