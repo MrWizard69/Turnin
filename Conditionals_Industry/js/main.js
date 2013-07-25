@@ -2,4 +2,5 @@
 // Industry Conditions
 // 7-25-13
 
-console.log("Working!");
+var proj = prompt("You are working on a project that is expected to take X hours. How many hours?");
+
