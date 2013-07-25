@@ -19,7 +19,8 @@ function growth(a,b){
 }
 growth(sprout1, sprout2);
 
-//console.log(sprout2 - sprout1);
+console.log("During the middle of the second month, you noticed " + weeds + " weeds growing...");
+
 
 
 
