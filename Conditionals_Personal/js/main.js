@@ -15,7 +15,7 @@ else{
 
 function growth(a,b){
     var result = (b - a);
-    console.log(result);
+    console.log("Your plant grew " + result + "cm in one month");
 }
 growth(sprout1, sprout2);
 
