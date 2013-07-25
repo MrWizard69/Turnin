@@ -19,27 +19,27 @@ else{
     console.log("Your tavels should take " + (dist/aday) +" game days"); //calculates how many game days it will take to go to the safe house
 }
 
-console.log("On your way to your safe house, you got jumped by " + creeper + " creepers!!!");
+console.log("On your way to your safe house, you got jumped by " + creeper + " creepers!!!"); //creeper attack!!!
 
-var creepSlayer = prompt("So... do you stand your ground or break in your new shoes? 1 = fight! 0 = run run run!");
+var creepSlayer = prompt("So... do you stand your ground or break in your new shoes? 1 = fight! 0 = run run run!");// asks the user to fight or flight
 
-if(creeper >= 2 && creepSlayer == 1){
-    console.log("You managed to fight one off but the others surrounded you and gave you a creeper hug...");
+if(creeper > 2 && creepSlayer == 1){
+    console.log("You managed to fight one off but the others surrounded you and gave you a creeper hug..."); // if creepers are >= 2 and the user chose to fight
 }
-else if(creeper >= 2 && creepSlayer == 0){
-    console.log("You almost got away! But you ran into a random ditch you didn't see ahead and fell into lava, losing everything you had!");
+else if(creeper > 2 && creepSlayer == 0){
+    console.log("You almost got away! But you ran into a random ditch you didn't see ahead and fell into lava, losing everything you had!"); //if creepers are >= and the user chose to run
 }
-else if(creeper < 2 && creepSlayer == 1){
-    console.log("A glorious battle! You escape with honor!");
+else if(creeper == 2 && creepSlayer == 1){
+    console.log("A glorious battle! You escape with honor!");//if creepers are < 2 and the user chose to fight
 }
-else if(creeper < 2 && creepSlayer == 0){
-    console.log("You out ran the creeper! :D");
+else if(creeper == 2 && creepSlayer == 0){
+    console.log("You out ran the creeper! :D"); //if creepers are < 2 and the user chose to run
 }
 else if(creeper == 0 && creepSlayer == 1){
-    console.log("What are you fighting??... Weirdo... Keep walking home and don't talk to strangers.");
+    console.log("What are you fighting??... Weirdo... Keep walking home and don't talk to strangers."); //if the random creeper number = 0 and the user chose to fight
 }
 else if(creeper == 0 && creepSlayer == 0){
-    console.log("What did you see?? What are you running from?? Pretend creepers you say? Shut up");
+    console.log("What did you see?? What are you running from?? Pretend creepers you say? Shut up");// if the random creeper number = 0 and the user chose to run
 }
 
 
