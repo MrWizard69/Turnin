@@ -6,10 +6,10 @@ var dist = prompt("In minecraft, your safe house is how many blocks away?"); // 
 var creeper = Math.floor((Math.random() * 5)); //random creeper number
 
 if(dist == ""){
-    console.log("TYPE SOMETHING!!!");
+    console.log("TYPE SOMETHING!!!"); // if the user didn't type anything in
 }
 else{
-    var aday = prompt("How many blocks can you travel a day?");
+    var aday = prompt("How many blocks can you travel a day?"); // else asks how far they can travel in a day
 }
 
 if(aday == ""){
@@ -41,4 +41,5 @@ else if(creeper == 0 && creepSlayer == 1){
 else if(creeper == 0 && creepSlayer == 0){
     console.log("What did you see?? What are you running from?? Pretend creepers you say? Shut up");
 }
+
 
