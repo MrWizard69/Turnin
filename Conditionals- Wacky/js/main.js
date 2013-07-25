@@ -35,4 +35,7 @@ else if(creeper < 2 && creepSlayer == 1){
 else if(creeper < 2 && creepSlayer == 0){
     console.log("You out ran the creeper! :D");
 }
+else if(creeper == 0 && creepSlayer == 1){
+
+}
 
