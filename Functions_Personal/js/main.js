@@ -50,4 +50,8 @@ function treeRings(a,b,h1,h2,re){
     }
 
 }
+var result = "";
+var diameter = treeRings(tree1, tree2, treeH1, treeH2, result);
+
+console.log(diameter);
 
