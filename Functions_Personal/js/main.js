@@ -40,6 +40,10 @@ function treeRings(a,b,h1,h2,re){
         re = console.log("The first tree is " + (a - b) + "in. wider");
         return re;
     }
+    else if(a < b){
+        re = console.log("The second tree is " + (b - a) + " in. wider");
+        return re;
+    }
 
 
 }
