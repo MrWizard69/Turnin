@@ -45,13 +45,13 @@ function treeRings(a,b,h1,h2,re){ // a function called treeRings
         return re; //returns the result
     }
     else if(a == b){
-        re = console.log("The two trees are equally round");
-        return re;
+        re = console.log("The two trees are equally round");//if the two trees are equally wide
+        return re;//returns the result
     }
 
 }
-var result = "";
-var diameter = treeRings(tree1, tree2, treeH1, treeH2, result);
+var result = ""; // this var is left blank to return the results
+var diameter = treeRings(tree1, tree2, treeH1, treeH2, result); //calls the treeRing function
 
-console.log(diameter);
+console.log(diameter);//displays the treeRing function but a crazy error is telling me that it's undefined, when it clearly is!
 
