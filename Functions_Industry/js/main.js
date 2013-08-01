@@ -10,4 +10,7 @@ if(houseL == ""){
 else{
     var houseW = prompt("What is the Width of this house in yards?");
 }
+if(houseW == ""){
+    console.log("You no types nothing in!");
+}
 
