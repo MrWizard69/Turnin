@@ -33,6 +33,9 @@ function treeRings(a,b,h1,h2,re){
     else if(h1 < h2){
         console.log("the second tree is the tallest");
     }
+    else if(h1 == h2){
+        console.log("The two trees seem to be about the same height");
+    }
 
 
 }
