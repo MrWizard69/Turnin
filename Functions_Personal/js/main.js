@@ -26,4 +26,15 @@ else{
     var treeH2 = prompt("How tall is the second tree in feet?");
 }
 
+function treeRings(a,b,h1,h2,re){
+    if(h1 > h2){
+        console.log("The first tree is the tallest");
+    }
+
+
+}
+var result = "";
+var diameter = treeRings(tree1, tree2, treeH1, treeH2, result);
+
+console.log(diameter);
 
