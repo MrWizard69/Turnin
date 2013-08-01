@@ -20,4 +20,11 @@ else{
 if(houseH == ""){
     console.log("You no types nothing in!");
 }
+else{
+    var volume = function(a,b,c){
+        var vol = a * b * c;
+        return vol;
+    }
+}
+
 
