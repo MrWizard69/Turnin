@@ -12,3 +12,12 @@ else{
     var tree2 = prompt("What is the diameter of the second tree in inches?");
 }
 
+if(tree2 == ""){
+    console.log("Type something in!");
+}
+else{
+    var treeH1 = prompt("How tall is the first tree in feet?");
+}
+
+
+
