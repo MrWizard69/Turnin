@@ -19,5 +19,11 @@ else{
     var treeH1 = prompt("How tall is the first tree in feet?");
 }
 
+if(treeH1 == ""){
+    console.log("Type something in!");
+}
+else{
+    var treeH2 = prompt("How tall is the second tree in feet?");
+}
 
 
