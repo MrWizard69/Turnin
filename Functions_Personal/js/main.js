@@ -2,10 +2,10 @@
 //8-1-13
 //Functions- Personal
 
-var tree1 = prompt("You find two trees in the forrest. You want to see which tree is older. What is the diameter of the first tree in inches?");
+var tree1 = prompt("You find two trees in the forrest. You want to see which tree is older. What is the diameter of the first tree in inches?");// a prompt asking you how wide the first tree is
 
 if(tree1 == ""){
-    console.log("Type something in!");
+    console.log("Type something in!"); //if the user types nothing in
 }
 else{
 
