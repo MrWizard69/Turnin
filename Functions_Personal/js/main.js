@@ -34,15 +34,15 @@ function treeRings(a,b,h1,h2,re){ // a function called treeRings
         console.log("the second tree is the tallest"); //compares if the second tree is taller than the first
     }
     else if(h1 == h2){
-        console.log("The two trees seem to be about the same height");
+        console.log("The two trees seem to be about the same height"); //if the two trees are equally tall
     }
     if(a > b){
-        re = console.log("The first tree is " + (a - b) + "in. wider");
-        return re;
+        re = console.log("The first tree is " + (a - b) + "in. wider"); // compares to see if the first tree is wider than the second and calcs the difference
+        return re; //returns the results
     }
     else if(a < b){
-        re = console.log("The second tree is " + (b - a) + " in. wider");
-        return re;
+        re = console.log("The second tree is " + (b - a) + " in. wider");// compares to see if the second tree is wider than the first and calcs the difference
+        return re; //returns the result
     }
     else if(a == b){
         re = console.log("The two trees are equally round");
