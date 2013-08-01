@@ -13,4 +13,8 @@ else{
 if(houseW == ""){
     console.log("You no types nothing in!");
 }
+else{
+    var houseH = prompt("So what is height of that house in yards?");
+}
+
 
