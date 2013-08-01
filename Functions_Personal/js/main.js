@@ -26,12 +26,12 @@ else{
     var treeH2 = prompt("How tall is the second tree in feet?"); //asks how tall the second tree is
 }
 
-function treeRings(a,b,h1,h2,re){
+function treeRings(a,b,h1,h2,re){ // a function called treeRings
     if(h1 > h2){
-        console.log("The first tree is the tallest");
+        console.log("The first tree is the tallest"); //compares if the first tree is taller than the second
     }
     else if(h1 < h2){
-        console.log("the second tree is the tallest");
+        console.log("the second tree is the tallest"); //compares if the second tree is taller than the first
     }
     else if(h1 == h2){
         console.log("The two trees seem to be about the same height");
