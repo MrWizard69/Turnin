@@ -20,10 +20,10 @@ else{
 }
 
 if(treeH1 == ""){
-    console.log("Type something in!");
+    console.log("Type something in!"); //if the user types nothing in
 }
 else{
-    var treeH2 = prompt("How tall is the second tree in feet?");
+    var treeH2 = prompt("How tall is the second tree in feet?"); //asks how tall the second tree is
 }
 
 function treeRings(a,b,h1,h2,re){
