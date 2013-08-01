@@ -13,10 +13,10 @@ else{
 }
 
 if(tree2 == ""){
-    console.log("Type something in!");
+    console.log("Type something in!");// if the user types nothing in
 }
 else{
-    var treeH1 = prompt("How tall is the first tree in feet?");
+    var treeH1 = prompt("How tall is the first tree in feet?"); // asks the user how tall the first tree is
 }
 
 if(treeH1 == ""){
