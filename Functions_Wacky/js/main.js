@@ -10,6 +10,10 @@ console.log(ranNum);
 
 while(guess != ranNum){
     var guess = prompt("Guess a number between 1 and 10");
+    if(guess < ranNum){
+        console.log("Sorry, your guess is too low");
+        guess = "";
+    }
 
 }
 
