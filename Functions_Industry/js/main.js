@@ -29,6 +29,6 @@ else{
 
 console.log("The volume of your new house is " + volume(houseL, houseW, houseH) + " yards"); //displays the volume of the house
 
-var expectations = prompt("Is this result what you expected?");
+var expectations = prompt("Is this result what you expected?"); //a prompt that asks if the results is what you expected
 
 expectations == 'yes' ? console.log("Very good! :D") : console.log("I'll take that as a no...");
