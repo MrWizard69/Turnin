@@ -2,9 +2,9 @@
 //8-1-13
 //Wacky Functions
 
-console.log("Let's play guess the number! :D");
+console.log("Let's play guess the number! :D"); //a game! guess the number! YAAAAYYY!
 
-var ranNum = Math.ceil(Math.random() * 10 + 1);
+var ranNum = Math.ceil(Math.random() * 10 + 1); //the random number the user must guess
 console.log(ranNum);
 
 
