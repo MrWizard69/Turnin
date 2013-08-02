@@ -14,7 +14,7 @@ while(guess != ranNum){// while the users input doesn't equal the random number.
         console.log("Sorry, your guess is too low"); //the user gets a message telling them that they guessed too low
         guess = ""; //clears the guess variable
     }
-    else if(guess > ranNum){
+    else if(guess > ranNum){ //if the users input is greater than the random number
         console.log("Sorry, your guess is too high");
         guess = "";
     }
