@@ -2,10 +2,10 @@
 //8-1-13
 //Functions Industry
 
-var houseL = prompt("So you want to build a house? What is the length in yards?");
+var houseL = prompt("So you want to build a house? What is the length in yards?"); // a prompt that asks the length of a house
 
 if(houseL == ""){
-    console.log("You no types nothing in!");
+    console.log("You no types nothing in!"); //if the stupid user forgets to put anything in
 }
 else{
     var houseW = prompt("What is the Width of this house in yards?");
