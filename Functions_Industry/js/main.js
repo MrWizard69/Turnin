@@ -18,7 +18,7 @@ else{
 }
 
 if(houseH == ""){
-    console.log("You no types nothing in!");
+    console.log("You no types nothing in!"); //if the user types nothing in... again...
 }
 else{
     var volume = function(a,b,c){
