@@ -21,9 +21,9 @@ if(houseH == ""){
     console.log("You no types nothing in!"); //if the user types nothing in... again...
 }
 else{
-    var volume = function(a,b,c){
-        var vol = a * b * c;
-        return vol;
+    var volume = function(a,b,c){  //a function that calcs the volume of the house
+        var vol = a * b * c; //calculation
+        return vol; //returning the calculation
     }
 }
 
