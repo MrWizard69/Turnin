@@ -18,6 +18,9 @@ while(guess != ranNum){
         console.log("Sorry, your guess is too high");
         guess = "";
     }
-
+    else if(guess == ranNum){
+        console.log("You got it!!!");
+        break;
+    }
 }
 
