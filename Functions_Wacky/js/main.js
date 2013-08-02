@@ -5,7 +5,7 @@
 console.log("Let's play guess the number! :D"); //a game! guess the number! YAAAAYYY!
 
 var ranNum = Math.ceil(Math.random() * 10 + 1); //the random number the user must guess
-console.log(ranNum);
+console.log(ranNum); //this displays the random number. It helped me see if I was doing this right...
 
 
 while(guess != ranNum){
