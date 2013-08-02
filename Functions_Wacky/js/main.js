@@ -9,7 +9,7 @@ var ranNum = Math.ceil(Math.random() * 10 + 1); //the random number the user mus
 
 
 while(guess != ranNum){// while the users input doesn't equal the random number...
-    var guess = prompt("Guess a number between 1 and 10");
+    var guess = prompt("Guess a number between 1 and 10"); // gets the users input
     if(guess < ranNum){
         console.log("Sorry, your guess is too low");
         guess = "";
