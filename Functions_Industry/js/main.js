@@ -31,4 +31,4 @@ console.log("The volume of your new house is " + volume(houseL, houseW, houseH) 
 
 var expectations = prompt("Is this result what you expected?"); //a prompt that asks if the results is what you expected
 
-expectations == 'yes' ? console.log("Very good! :D") : console.log("I'll take that as a no...");
+expectations == 'yes' || "Yes" || "YES" ? console.log("Very good! :D") : console.log("I'll take that as a no..."); // if the user types YeS then very good else then no
