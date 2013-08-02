@@ -27,7 +27,7 @@ else{
     }
 }
 
-console.log("The volume of your new house is " + volume(houseL, houseW, houseH) + " yards");
+console.log("The volume of your new house is " + volume(houseL, houseW, houseH) + " yards"); //displays the volume of the house
 
 var expectations = prompt("Is this result what you expected?");
 
