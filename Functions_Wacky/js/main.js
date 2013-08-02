@@ -14,6 +14,10 @@ while(guess != ranNum){
         console.log("Sorry, your guess is too low");
         guess = "";
     }
+    else if(guess > ranNum){
+        console.log("Sorry, your guess is too high");
+        guess = "";
+    }
 
 }
 
