@@ -9,6 +9,7 @@ console.log(ranNum);
 
 
 while(guess != ranNum){
+    var guess = prompt("Guess a number between 1 and 10");
 
 }
 
