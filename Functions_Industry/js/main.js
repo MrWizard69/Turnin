@@ -11,10 +11,10 @@ else{
     var houseW = prompt("What is the Width of this house in yards?"); // a prompt that asks the width of the house
 }
 if(houseW == ""){
-    console.log("You no types nothing in!");
+    console.log("You no types nothing in!");// again, if the user types nothing in
 }
 else{
-    var houseH = prompt("So what is height of that house in yards?");
+    var houseH = prompt("So what is height of that house in yards?"); //a prompt that asks the height of the house
 }
 
 if(houseH == ""){
