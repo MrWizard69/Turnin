@@ -8,7 +8,7 @@ if(houseL == ""){
     console.log("You no types nothing in!"); //if the stupid user forgets to put anything in
 }
 else{
-    var houseW = prompt("What is the Width of this house in yards?");
+    var houseW = prompt("What is the Width of this house in yards?"); // a prompt that asks the width of the house
 }
 if(houseW == ""){
     console.log("You no types nothing in!");
