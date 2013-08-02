@@ -4,4 +4,6 @@
 
 console.log("Let's play guess the number! :D");
 
+var ranNum = Math.ceil(Math.random() * 10 + 1);
+
 
