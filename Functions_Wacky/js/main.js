@@ -2,4 +2,6 @@
 //8-1-13
 //Wacky Functions
 
-console.log("YAY! :D");
+console.log("Let's play guess the number! :D");
+
+
