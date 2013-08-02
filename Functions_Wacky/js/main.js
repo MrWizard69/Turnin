@@ -8,5 +8,7 @@ var ranNum = Math.ceil(Math.random() * 10 + 1);
 console.log(ranNum);
 
 
+while(guess != ranNum){
 
+}
 
